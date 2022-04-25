@@ -1,0 +1,87 @@
+* {
+margin: 0;
+padding: 0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+
+}
+
+body {
+    color: #000000;
+    background-color: #ffffff;
+    
+  }
+  .hider h1{
+    text-align: center;
+  }
+.hider h1 a{
+  color: #000000;
+  
+}
+
+.navegacion{
+ 
+  background: #0cc1f4;
+  border-radius: 10px;
+  border: groove;
+  border-color:#0cc1f4 ;
+  
+}
+
+.navegacion ul{
+  list-style: none;
+}
+.cont > li{
+  position: relative;
+  display: inline-block;
+}
+.cont > li > a{
+  display: block;
+  padding: 15px 90px; 
+  color: rgb(255, 253, 253);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration: none;
+}
+.cont li a:hover{
+   color: #000000;
+   transition: all .3s;
+}
+.sub{
+  position: absolute;
+  background: rgb(26, 11, 67);
+  width: 140%;
+  display: none;
+  visibility: hidden;
+  opacity: 1;
+  transition: opacity 1.5s;
+  border-radius: 10px;
+  border: groove;
+  border-color:rgb(26, 16, 67) ;
+  
+}
+.sub li a{
+  display: block;
+  padding: 15px;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration: none;
+}
+.cont li:hover .sub{
+  display: block;
+  visibility: visible;
+ 
+  
+}
+.contenido-hero  h2{
+  color: #fff;
+  text-align: center;
+  margin-top: 0px;
+  padding: 140px;
+  background-image: url(https://previews.123rf.com/images/brsav/brsav1411/brsav141100022/34072212-pan-panader%C3%ADa-patr%C3%B3n-de-fondo-sin-fisuras-etiquetas-pack-para-pan-.jpg);
+    
+}
+
+.contenedorsombra{
+  text-align: center;
+}
